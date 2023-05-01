@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Play&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header, main, footer {
+    height: 32vh;
+}
+
+header{
+    background-color: rgb(227, 242, 193);
+
+}
+h1{
+    color: black;
+    
+    text-align: center;
+    font-size: 50px;
+    height: 90px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.nav{
+   
+    align-items: center;
+    display: flex;
+}
+.nav_link{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+}
+main{
+    background-color: rgb(201, 219, 178) 
+}
+footer{
+    background-color:rgb(170, 200, 167) ;
+}
