@@ -4,36 +4,54 @@
     box-sizing: border-box;
     
 }
-header, main, footer {
-    height: 32vh;
-}
+
 
 header{
     background-color: rgb(227, 242, 193);
-
+    height: 30vh;
 }
 h1{
     color: black;
     
     text-align: center;
     font-size: 50px;
-    height: 90px;
+    height: 15vh;
     font-family: 'Indie Flower', cursive;
+    
 }
 
 .nav{
    
     align-items: center;
     display: flex;
+    
 }
 .nav_link{
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Play', sans-serif;
+    padding: 5px;
+    width: 50%; /** asi se separan los nav**/ 
+    
+    
 }
 main{
-    background-color: rgb(201, 219, 178) 
+    background-color: rgb(201, 219, 178); 
+    height: 75vh;
 }
 footer{
     background-color:rgb(170, 200, 167) ;
+    height: 10vh;
+    text-align: center;
+    
+}
+
+.form{
+    text-align: center;
+}
+.mispro{
+    display: flex;
+}
+.misprocs{
+    margin-right: 60px;
 }
